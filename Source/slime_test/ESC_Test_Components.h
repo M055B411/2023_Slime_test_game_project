@@ -16,7 +16,19 @@ struct FSlimeBubbleComp {
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		bool Isattached = false;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		float bubblehealth;
 };
+
+//struct FSlimeCoreComp {
+//	GENERATED_BODY()
+//		FSlimeCoreComp() {}
+//
+//	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+//		float Corehealth;
+//	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+//		float Charhealth;
+//};
 
 USTRUCT(BlueprintType)
 struct FActorReference {
